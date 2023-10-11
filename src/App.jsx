@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 import Home from "./Pages/Home";
 import Fetch from "./pages/Fetch";
 import Clock from "./Pages/Clock";
+import "react-toastify/dist/ReactToastify.css";
 const App = () => {
   return (
     <BrowserRouter>
