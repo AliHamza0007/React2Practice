@@ -1,7 +1,7 @@
 import Typewriter from "typewriter-effect";
 import { Fade } from "react-reveal";
 import Layout from "../components/Layout";
-const Home = () => {
+function Home (){
   const Banner =
     "https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_1280.jpg";
   const Hello =
